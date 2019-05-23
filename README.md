@@ -2,7 +2,7 @@
 
 Fake estate agency application build with Django 2.1 framework and PostgreSQL database. 
 Fully customized, composed admin page. Landing page contains lastest listings and "Seller of the Month". 
-Everyone can make an inquiry, registered users are notificated with. Site also has listing search engine.
+Everyone can make an inquiry, but only registered users are notificated when inquiry is open. Site also has listing search engine.
 
 RUN (easy way):
 All requirements are placed in "requirements.txt" file, so simpliest way to run this app will be:

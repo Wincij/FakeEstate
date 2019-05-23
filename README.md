@@ -11,6 +11,9 @@ All requirements are placed in "requirements.txt" file, so simpliest way to run 
 3. Install all requirements `pip install -r requirements.txt`
 4. Create a database of any kind (I used Postgres, but as long as it is small app sqlite3 will work fine)
 5. Open settings file `btre/btre/settings.py` and set up all parameters (database and SECRET_KEY)
-6. Run local server by `python3 manage.py runserver`
+6. Transfer model schema to your new database by: 
+- `python3 manage.py makemigrations`
+- `python3 manage.py migrate` 
+7. Run local server by `python3 manage.py runserver`
 
 

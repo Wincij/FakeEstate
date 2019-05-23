@@ -17,3 +17,5 @@ RUN (easy way):
 - `python3 manage.py makemigrations`
 - `python3 manage.py migrate` 
 7. Run local server by `python3 manage.py runserver`
+
+By default app will be available at `localhost:8000`
